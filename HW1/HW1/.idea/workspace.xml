@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f9257c1-b483-44b2-920b-ea34939be90c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/electricvehicle/ElectricVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/electricvehicle/TestElectricV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5004HW1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab0/Lab0/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab0/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/Test/TestStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/lab1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/lab1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1/src/stock/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/cs5004lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cs5004lab1/src/Stock/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab0/Lab0/Archive.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab0/Lab0/Archive.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab0/Lab0/Lab0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab0/Lab0/Lab0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab0/Lab0/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab0/Lab0/test/java/PersonTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2arBhVXX0J8Am7Xx5Zn713UOtfW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/chenjieyao/IdeaProjects/5004/HW1/HW1/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.34098738",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestElectricV.testRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="electricvehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ElectricVehicle" />
+      <option name="MAIN_CLASS_NAME" value="electricvehicle.TestElectricV" />
+      <option name="METHOD_NAME" value="testRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestElectricV.testRange" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f9257c1-b483-44b2-920b-ea34939be90c" name="Changes" comment="" />
+      <created>1705066938206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705066938206</updated>
+    </task>
+    <servers />
+  </component>
+</project>
