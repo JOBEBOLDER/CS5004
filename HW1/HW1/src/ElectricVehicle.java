@@ -1,11 +1,3 @@
-/*
- * 2024 spring CS5004
- * HW 1: Assignment 1: Writing a simple class and testing it(1 Electric Vehicles)
- * Cathy Chen
- */
-
-package electricvehicle;
-
 import java.text.DecimalFormat;
 
 /**
@@ -34,33 +26,22 @@ public class ElectricVehicle {
    */
   public ElectricVehicle(String name, double batterySize,
                          double stateOfCharge, double defaultEfficiency) {
-    this.name = (name == "" || name.isEmpty()) ? "unknown EV" : name;
-
-    if (stateOfCharge <= 0.15) {
-      this.stateOfCharge = 0.15;
-    } else if (stateOfCharge >= 1.00) {
-      this.stateOfCharge = 1.00;
-    } else {
-      this.stateOfCharge = stateOfCharge;
-    }
-
-    if (batterySize <= 10.00) {
-      this.batterySize = 10.00;
-    } else if (batterySize >= 150.00) {
-      this.batterySize = 150.00;
-    } else {
-      this.batterySize = batterySize;
-    }
-
-    if (defaultEfficiency <= 0.5) {
-      this.defaultEfficiency = 0.5;
-    } else if (defaultEfficiency >= 4.5) {
-      this.defaultEfficiency = 4.5;
-    } else {
-      this.defaultEfficiency = defaultEfficiency;
-    }
-
+    this.name = (name == null || name.isEmpty()) ? "unknown EV" : name;
+    this.stateOfCharge = clamp(0.15,1.00, stateOfCharge);
+    this.batterySize = clamp(10.00, 150.00, batterySize);
+    this.defaultEfficiency = clamp(0.5, 4.5, defaultEfficiency);
     this.currentEfficiency = this.defaultEfficiency;
+  }
+
+  private double clamp(double min, double max, double value) {
+    if (value <= min) {
+      value = min;
+    } else if (value >= max) {
+      value = max;
+    } else {
+      value = value;
+    }
+    return value;
 
   }
 
@@ -131,7 +112,7 @@ public class ElectricVehicle {
    * @param batterySize The batterysize of the electric vehicle.
    */
   public void setBatterySize(double batterySize) {
-    this.batterySize = batterySize;
+    this.batterySize = clamp(10.00, 150.00, batterySize);
   }
 
   /**
@@ -149,7 +130,7 @@ public class ElectricVehicle {
    * @param stateOfCharge The new state of charge as a decimal.
    */
   public void setStateOfCharge(double stateOfCharge) {
-    this.stateOfCharge = stateOfCharge;
+    this.stateOfCharge = clamp(0.15,1.00, stateOfCharge);
   }
 
   /**
@@ -157,7 +138,7 @@ public class ElectricVehicle {
    *
    * @return The current efficiency.
    */
-  public double getCurrentEfficiency() {
+  public double getEfficiency() {
     return currentEfficiency;
   }
 
@@ -166,7 +147,14 @@ public class ElectricVehicle {
    *
    * @param currentEfficiency The new current efficiency.
    */
-  public void setCurrentEfficiency(double currentEfficiency) {
+  public void setEfficiency(double currentEfficiency) {
+    if (currentEfficiency <= 0.5) {
+      this.currentEfficiency = 0.5;
+    } else if (currentEfficiency >= 4.5) {
+      this.currentEfficiency = 4.5;
+    } else {
+      this.currentEfficiency = currentEfficiency;
+    }
     this.currentEfficiency = currentEfficiency;
   }
 
@@ -188,7 +176,9 @@ public class ElectricVehicle {
   @Override
   public String toString() {
     DecimalFormat pre = new DecimalFormat("0.0");
-    return name + "SOC:" + this.stateOfCharge + "% Range (miles):" + this.range();
+    String formattedSoc = pre.format(this.stateOfCharge * 100);
+    String formattedRange = pre.format(this.range());
+    return this.name + " SOC: " + formattedSoc + "% Range (miles): " + formattedRange;
   }
 
 }

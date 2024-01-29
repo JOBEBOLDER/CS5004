@@ -5,7 +5,6 @@
  * Cathy Chen
  */
 
-package electricvehicle;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
@@ -16,7 +15,7 @@ import org.junit.Test;
  * This class contains tests to verify the functionality of the ElectricVehicle class,
  * including range calculation and efficiency updates based on temperature.
  */
-public class TestElectricV {
+public class ElectricVehicleTest {
   private ElectricVehicle Tesla;
 
 
@@ -51,19 +50,26 @@ public class TestElectricV {
   public void testUpdateEfficiency() {
     //testing UpdateEfficiency method with NormalTemperature.
     Tesla.updateEfficiency(70.0);
-    assertEquals(4.0, Tesla.getCurrentEfficiency(), 0.0);
+    assertEquals(4.0, Tesla.getEfficiency(), 0.0);
 
     //testing UpdateEfficiency method with low Temperature.
     Tesla.updateEfficiency(63);
-    assertEquals(3.92, Tesla.getCurrentEfficiency(), 0.0);
+    assertEquals(3.92, Tesla.getEfficiency(), 0.0);
 
     //testing UpdateEfficiency method with high Temperature.
     Tesla.updateEfficiency(88);
-    assertEquals(3.4, Tesla.getCurrentEfficiency(),0.0);
+    assertEquals(3.4, Tesla.getEfficiency(),0.0);
 
   }
 
-
+  /**
+   * Tests the string representation of the Tesla instance.
+   */
+  @Test
+  public void testToString() {
+    String a = Tesla.toString();
+    assertEquals("Tesla Model S SOC: 100.0% Range (miles): 400.0", a);
+  }
 
 
 }
